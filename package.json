@@ -1,0 +1,25 @@
+{
+  "name": "stackflow",
+  "version": "1.0.0",
+  "description": "A small version of stackoverflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "stackflow"
+  ],
+  "author": "Santheepkumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^11.1.0"
+  }
+}
